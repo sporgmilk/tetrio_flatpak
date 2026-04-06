@@ -6,12 +6,11 @@ base-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: tetrio-run
 finish-args:
-  - --share=ipc
-  - --socket=x11
   - --socket=wayland
   - --socket=pulseaudio
   - --share=network
-  - --device=all
+  - --device=dri
+  - --env=ELECTRON_OZONE_PLATFORM_HINT=wayland
 
 modules:
   - name: tetrio
