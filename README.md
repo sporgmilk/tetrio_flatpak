@@ -13,4 +13,4 @@ A flatpak build of tetr.io (v10)
 
 ### Build/install
 
-    flatpak run org.flatpak.Builder --user --install build-dir io.tetr.tetr.io.yml
+    flatpak run org.flatpak.Builder --user --install build-dir io.osk.tetrio.yml

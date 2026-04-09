@@ -3,6 +3,6 @@ Name=TETR.IO
 Exec=tetrio-run
 Terminal=false
 Type=Application
-Icon=io.tetr.tetr.io
+Icon=io.osk.tetrio
 StartupWMClass=tetrio
 Categories=Game;
